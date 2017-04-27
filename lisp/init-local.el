@@ -14,7 +14,7 @@
         ("org-notes"
          :base-directory "~/org-file/"
          :base-extension "org"
-         :publishing-directory "~/org-file/public_html/"
+         :publishing-directory "~/public_html/"
          :recursive t
          ;; :exclude ".*-reveal\.org"        ; exclude org-reveal slides
          :publishing-function org-html-publish-to-html
@@ -41,13 +41,13 @@
          :base-directory "~/org-file/"
          :base-extension "html\\|xml\\|css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|zip\\|gz\\|csv\\|m"
          ;; :include (".htaccess")
-         :publishing-directory "~/org-file/public_html/"
+         :publishing-directory "~/public_html/"
          :recursive t
          :publishing-function org-publish-attachment
          )
 
         ("org"
-         :components ("org-notes" "org-static" "html-static")
+         :components ("org-notes" "html-static")
          )
 
         )
