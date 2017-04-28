@@ -1,0 +1,10 @@
+# name : raw code
+# key : graw
+# --
+{% highlight ${1:Which Type} %}
+{% raw %}
+${2:put your code here...}
+{% endraw %}
+{% endhighlight $1 %}
+
+$0

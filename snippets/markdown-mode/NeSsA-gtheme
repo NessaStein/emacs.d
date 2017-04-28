@@ -1,0 +1,7 @@
+# name : insert theme(always ahead of code block)
+# key : gtheme
+# --
+>${1:theme name}
+{:.filename}
+
+$0

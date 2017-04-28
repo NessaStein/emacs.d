@@ -1,0 +1,6 @@
+# name : insert image in github url style
+# key : gimg
+# --
+![${1:add some comment}]({{ site.baseurl | prepend:site.url}}/images/${2:image filename}){: .center-image }*${3:Below the Image show}*
+
+$0

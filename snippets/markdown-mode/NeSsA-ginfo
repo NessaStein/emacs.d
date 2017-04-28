@@ -1,0 +1,13 @@
+# name : Article Info fill in
+# key : ginfo
+# --
+---
+layout: post
+title: "$1"
+date: `(format-time-string "<%Y-%m-%d %H:%M:%S>" (current-time))`
+tags: $2
+description: $3
+share: $4
+---
+
+$0

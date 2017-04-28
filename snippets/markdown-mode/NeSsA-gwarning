@@ -1,0 +1,7 @@
+# name : warning icon
+# key : gwarning
+# --
+>Warning 
+{: .note .warning}
+
+$0

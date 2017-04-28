@@ -1,0 +1,4 @@
+# name : keyboard icon
+# key : gkbd
+# --
+\`$1\`{: .key} $0

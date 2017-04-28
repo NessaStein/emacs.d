@@ -1,0 +1,8 @@
+# name : insert code
+# key : gcode
+# --
+{% highlight ${1:Which Type} %}
+${2:put your code here...}
+{% endhighlight $1 %}
+
+$0
