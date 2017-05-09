@@ -1,0 +1,24 @@
+# -*- mode: snippet -*-
+#name : code listing
+# --
+\documentclass[varwidth=${1:20}em,crop]{standalone}
+
+\usepackage{xltxtra}
+\setsansfont{DejaVu Sans}
+\setmainfont{DejaVu Serif}
+%\setmonofont{DejaVu Sans Mono}
+
+\usepackage{minted}
+\renewcommand{\theFancyVerbLine}{
+  \textcolor{lightgray}{\scriptsize \arabic{FancyVerbLine}}}
+
+\begin{document}
+%\inputminted{c}{filename}
+\begin{minted}[
+	$3linenos=true,numbersep=2pt,
+	$3frame=leftline,framesep=3pt,rulecolor=\color{lightgray},
+	$3xleftmargin=10pt
+	]{python}
+$0
+\end{minted}
+\end{document}

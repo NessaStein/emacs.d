@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: beamer handouts
+# --
+\documentclass{wx672handouts} % $HOME/texmf/tex/latex/wx672handouts.cls. tweak it if you like
+
+%\setjobnamebeamerversion{${1:filename}-b} % only needed when include slides into article
+
+\input{$1.tex}
+$0

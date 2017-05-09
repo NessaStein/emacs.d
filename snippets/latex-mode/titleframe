@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+#name : \begin{frame} ... \end{frame}
+# --
+\title{$0} \institute{School of CIS\\\\SWFU} \author{Wang Xiaolin}
+
+\begin{frame}
+  \titlepage \vfill \tiny{\ding{41} wx672ster@gmail.com\\\\\\ding{37} 13577067397}
+\end{frame}
+

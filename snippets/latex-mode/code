@@ -1,0 +1,28 @@
+# -*- mode: snippet -*-
+#name : code listing
+# --
+\documentclass[varwidth,crop]{standalone}
+
+\usepackage{xltxtra}
+%\defaultfontfeatures{Mapping=tex-text}
+\setsansfont{DejaVu Sans}
+\setmainfont{DejaVu Serif}
+%\setmonofont{DejaVu Sans Mono}
+
+\usepackage{minted}
+\renewcommand{\theFancyVerbLine}{
+  \textcolor{lightgray}{\scriptsize \arabic{FancyVerbLine}}}
+\newminted{gas}{ linenos=true,numbersep=2pt,fontsize=\footnotesize,
+  frame=leftline,framesep=3pt,rulecolor=\color{lightgray}, xleftmargin=10pt }
+\newminted{c}{ linenos=true,numbersep=2pt,fontsize=\footnotesize,
+  frame=leftline,framesep=3pt,rulecolor=\color{lightgray}, xleftmargin=10pt }
+\newminted{python}{ linenos=true,numbersep=2pt,fontsize=\footnotesize,
+  frame=leftline,framesep=3pt,rulecolor=\color{lightgray}, xleftmargin=10pt }
+\newcommand{\codec}[1]{\mintinline{c}|#1|}
+
+\begin{document}
+%\inputminted{c}{filename}
+\begin{$1code}
+$0
+\end{$1code}
+\end{document}

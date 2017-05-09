@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: beamer slides
+# --
+\documentclass{wx672beamer} % $HOME/texmf/tex/latex/wx672beamer.cls
+\input{${1:filename}.tex}
+$0

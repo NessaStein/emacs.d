@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+#name : minted
+# --
+\begin{minted}[$2fontsize=\\${3:small},
+$4linenos=true,numbersep=10pt,
+$4frame=leftline,framesep=3pt,rulecolor=\color{lightgray},
+$4xleftmargin=4cm,xrightmargin=4cm,
+$4gobble=4
+]{${1:c}}
+$0
+\end{minted}
