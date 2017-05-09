@@ -12,6 +12,7 @@
 ;;; Commentary:org-publish setting personal site
 
 ;; (require-package 'ox-publish)
+;; use c-u M-x org-publish to force publish all files
 (setq org-html-coding-system 'utf-8-unix)
 
 (
